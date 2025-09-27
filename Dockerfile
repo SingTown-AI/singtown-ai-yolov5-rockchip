@@ -3,7 +3,7 @@
 # Image is CUDA-optimized for YOLOv5 single/multi-GPU training and inference
 
 # Start FROM NVIDIA PyTorch image https://ngc.nvidia.com/catalog/containers/nvidia:pytorch
-FROM pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime
+FROM pytorch/pytorch:2.4.0-cuda12.4-cudnn9-runtime
 
 # RUN rm -rf /opt/pytorch  # remove 1.2GB dir
 

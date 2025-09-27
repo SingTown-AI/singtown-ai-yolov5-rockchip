@@ -1,0 +1,8 @@
+.git
+.gitignore
+.gitmodules
+.devcontainer
+.vscode
+resource
+Dockerfile
+task.json

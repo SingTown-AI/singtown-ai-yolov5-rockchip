@@ -15,7 +15,7 @@ parser.add_argument(
 )
 opt = parser.parse_args()
 
-shutil.rmtree("yolov5/runs")
+shutil.rmtree("yolov5/runs", ignore_errors=True)
 subprocess.run(
     [
         "python3",
