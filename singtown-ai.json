@@ -1,0 +1,5 @@
+{
+  "resource_path": "resource",
+  "metrics_path": "yolov5/runs/train/exp/results.csv",
+  "result_path": "yolov5/runs/train/exp/output.zip"
+}

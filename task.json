@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "cmd": [
+      "python3",
+      "main.py",
+      "--weight",
+      "yolov5s640_coco2017.pt",
+      "--imgsz",
+      "640",
+      "--imgw",
+      "640",
+      "--imgh",
+      "480",
+      "--epochs",
+      "20"
+  ]
+}
