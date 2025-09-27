@@ -1,0 +1,8 @@
+path: ../resource
+train: images/train
+val: images/train
+test:  # (optional)
+
+# Classes
+nc: 2  # number of classes
+names: ['cat', 'dog']  # class names
